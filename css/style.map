@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"#logo{\r\n\twidth: 14em;\r\n\theight: 3.125em;\r\n\tfloat: left;\r\n\tpadding: 0.2em;\r\n}\r\n\r\n"
+	],
+	"mappings": ";AAAA,AAAA,KAAK,CAAA;EACJ,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,OAAQ;EAChB,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,KAAM;CACf",
+	"names": []
+}
