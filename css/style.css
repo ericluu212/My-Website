@@ -1,9 +1,168 @@
-/* line 1, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 50, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+img, iframe, video, object {
+  max-width: 100%;
+}
+
+/* line 54, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+strong, b {
+  font-weight: bold;
+}
+
+/*micro clear fix */
+/* line 59, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.grouping:before,
+.grouping:after {
+  content: " ";
+  display: table;
+}
+
+/* line 65, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.grouping:after {
+  clear: both;
+}
+
+/*
+CSS code for after the reset
+*/
+/* line 73, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+body {
+  background-color: #ada789;
+}
+
+/* line 77, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+a, u {
+  text-decoration: none !important;
+}
+
+/* line 81, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 #logo {
   width: 14em;
   height: 3.125em;
   float: left;
-  padding: 0.2em;
+  margin-top: 0.3em;
+  margin-left: 2em;
+}
+
+/* line 88, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.navbar {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* line 95, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.primary-nav {
+  float: right;
+}
+
+/* line 98, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.primary-nav > li {
+  float: left;
+}
+
+/* line 100, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.primary-nav > li a {
+  float: left;
+  padding: 1.5625em 0;
+  width: 9.375em;
+  border-left: 1px solid #ada791;
+  text-transform: uppercase;
+  text-align: center;
+  color: #766e65;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  transition: 0.15s background-color linear;
+}
+
+/* line 114, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.primary-nav > li a:focus, .primary-nav > li a:hover {
+  cursor: pointer;
+  background-color: #eb2428;
+  color: #fff;
+}
+
+/* line 122, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+#intro {
+  border-top: 5em solid #ada789;
+  background-color: white;
+  width: 35%;
+  margin: auto;
+}
+
+/* line 127, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+#intro > img {
+  width: 100%;
+  padding: 1em;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 135, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=../css/style.map */
