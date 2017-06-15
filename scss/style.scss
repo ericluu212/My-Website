@@ -223,6 +223,12 @@ video:hover{
 /*media queries*/
 
 @media screen and (max-width: 850px) {
+	img{ 
+		padding: 2em;
+		width: 75%;
+		display: block;
+		margin: 0 auto;
+	}
 	#logo{
 		position:absolute;
 		top:0;

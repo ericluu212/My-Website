@@ -244,6 +244,13 @@ video:hover {
 /*media queries*/
 @media screen and (max-width: 850px) {
   /* line 226, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  img {
+    padding: 2em;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 232, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
   #logo {
     position: absolute;
     top: 0;
@@ -252,31 +259,31 @@ video:hover {
     height: 2.25em;
     width: 10em;
   }
-  /* line 234, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  /* line 240, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
   .box {
     float: none;
     width: auto;
     border-top: 0;
   }
-  /* line 239, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  /* line 245, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
   .navbar {
     position: fixed;
     float: none;
   }
-  /* line 243, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  /* line 249, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
   .first {
     border-top: 10em solid #DAE3E7;
   }
-  /* line 246, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  /* line 252, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
   .primary-nav {
     width: 100%;
   }
-  /* line 249, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  /* line 255, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
   .primary-nav > li {
     float: right;
     width: 100%;
   }
-  /* line 252, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  /* line 258, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
   .primary-nav > li a {
     text-align: right;
     padding: 1em 1.5em 1.5em 0;
