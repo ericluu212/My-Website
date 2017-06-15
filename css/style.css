@@ -123,7 +123,7 @@ a, u {
   float: left;
 }
 
-/* line 118, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 119, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .primary-nav > li a {
   float: left;
   padding: 1.5625em 0;
@@ -137,14 +137,14 @@ a, u {
   transition: 0.15s background-color linear;
 }
 
-/* line 132, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 133, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .primary-nav > li a:focus, .primary-nav > li a:hover {
   cursor: pointer;
   background-color: #eb2428;
   color: #fff;
 }
 
-/* line 140, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 141, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .box {
   border-left: 3em solid #DAE3E7;
   border-right: 3em solid #DAE3E7;
@@ -153,7 +153,7 @@ a, u {
   float: left;
 }
 
-/* line 145, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 146, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .box > img {
   padding: 2em;
   width: 75%;
@@ -161,36 +161,36 @@ a, u {
   margin: 0 auto;
 }
 
-/* line 153, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 154, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .left {
   width: 60%;
 }
 
-/* line 157, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 158, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .right {
   width: 40%;
 }
 
-/* line 161, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 162, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .middle {
   float: none;
   width: 70%;
   margin: auto;
 }
 
-/* line 167, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 168, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .nearTop {
   border-top: 5.5em solid #DAE3E7;
 }
 
-/* line 171, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 172, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .header {
   font-weight: bold;
   font-size: 1.8em;
   padding-left: .5em;
 }
 
-/* line 178, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 179, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 p {
   padding: 1em;
   font-size: 1em;
@@ -198,24 +198,24 @@ p {
   line-height: 1.5em;
 }
 
-/* line 185, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 186, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .icon {
   margin-right: 0.8em;
   height: 1em;
   width: 1em;
 }
 
-/* line 191, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 192, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 a {
   display: inline-block;
 }
 
-/* line 195, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 196, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 #resume {
   max-width: 100%;
 }
 
-/* line 199, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 200, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .floatSmashImg {
   float: right;
   padding-left: 1em;
@@ -224,33 +224,67 @@ a {
   height: 13em;
 }
 
-/*
-.floatProjectImg{
-	float: right;
-	padding:{
-		left: $stdSize;
-		bottom: $stdSize;
-	} 
-	width: 10%;
-}
-*/
-/* line 218, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 210, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 video {
   display: block;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 223, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 215, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 video:hover {
   cursor: pointer;
 }
 
-/* line 227, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 219, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .underline {
   text-decoration: underline;
 }
 
-/*media query*/
+/*media queries*/
+@media screen and (max-width: 850px) {
+  /* line 226, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  #logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 2.25em;
+    width: 10em;
+  }
+  /* line 234, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  .box {
+    float: none;
+    width: auto;
+    border-top: 0;
+  }
+  /* line 239, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  .navbar {
+    position: fixed;
+    float: none;
+  }
+  /* line 243, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  .first {
+    border-top: 10em solid #DAE3E7;
+  }
+  /* line 246, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  .primary-nav {
+    width: 100%;
+  }
+  /* line 249, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  .primary-nav > li {
+    float: right;
+    width: 100%;
+  }
+  /* line 252, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+  .primary-nav > li a {
+    text-align: right;
+    padding: 1em 1.5em 1.5em 0;
+    width: 100%;
+    border-bottom: 0.05em solid #ada791;
+    border-left: 0px;
+    font-size: 0.75em;
+  }
+}
 
 /*# sourceMappingURL=../css/style.map */

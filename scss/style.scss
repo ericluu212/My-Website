@@ -89,7 +89,7 @@ CSS code for after the reset
 */
 
 body{
-	background-color: #DAE3E7;
+	background-color: $bkgd;
 }
 
 a, u{
@@ -115,6 +115,7 @@ a, u{
 }
 .primary-nav > li {	
 	float:left;
+	//z-index: 10;
 	a {
 		float: left;
 		padding: 1.5625em 0;
@@ -205,16 +206,7 @@ a{
 	width: 10em;
 	height: 13em;
 }
-/*
-.floatProjectImg{
-	float: right;
-	padding:{
-		left: $stdSize;
-		bottom: $stdSize;
-	} 
-	width: 10%;
-}
-*/
+
 video{
 	display: block;
 	width: 90%;
@@ -228,7 +220,47 @@ video:hover{
 	text-decoration: underline;
 }
 
-/*media query*/
+/*media queries*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
+	#logo{
+		position:absolute;
+		top:0;
+		left:0;	
+		z-index: 10;
+		height: 2.25em;
+		width: 10em;
+	}
+	.box{
+		float: none;
+		width: auto;
+		border-top: 0;
+	}
+	.navbar{
+		position: fixed;
+		float: none;
+	}
+	.first{
+		border-top: 10em solid $bkgd;
+	}
+	.primary-nav {
+		width: 100%;
+
+		& > li{
+			float: right;
+			width: 100%;
+			& a{
+				text-align: right;
+				padding: 1em 1.5em 1.5em 0;
+				width: 100%;
+				//border:none;
+				border-bottom: 0.05em solid #ada791;
+				border-left: 0px;
+				font-size: 0.75em;
+
+			}
+
+
+		}
+	}
 }
