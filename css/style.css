@@ -172,18 +172,25 @@ a, u {
 }
 
 /* line 161, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.middle {
+  float: none;
+  width: 70%;
+  margin: auto;
+}
+
+/* line 167, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .nearTop {
   border-top: 5.5em solid #DAE3E7;
 }
 
-/* line 165, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 171, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .header {
   font-weight: bold;
   font-size: 1.8em;
   padding-left: .5em;
 }
 
-/* line 172, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 178, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 p {
   padding: 1em;
   font-size: 1em;
@@ -191,21 +198,30 @@ p {
   line-height: 1.5em;
 }
 
-/* line 179, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 185, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .icon {
   margin-right: 0.8em;
   height: 1em;
   width: 1em;
 }
 
-/* line 185, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 191, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 a {
   display: inline-block;
 }
 
-/* line 189, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 195, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 #resume {
   max-width: 100%;
+}
+
+/* line 199, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.floatImg {
+  float: right;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 10em;
+  height: 13em;
 }
 
 /*# sourceMappingURL=../css/style.map */

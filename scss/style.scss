@@ -158,6 +158,12 @@ a, u{
 	width: 40%;
 }
 
+.middle{
+	float: none;
+	width: 70%;
+	margin: auto;
+}
+
 .nearTop{
 	@include divbordersNearTop;
 }
@@ -189,3 +195,14 @@ a{
 #resume{
 	max-width: 100%;
 }
+
+.floatImg{
+	float: right;
+	padding:{
+		left: $stdSize;
+		bottom: $stdSize;
+	} 
+	width: 10em;
+	height: 13em;
+}
+
