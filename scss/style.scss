@@ -215,6 +215,11 @@ a{
 	width: 10%;
 }
 */
+video{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
 video:hover{
 	cursor: pointer;
 }
