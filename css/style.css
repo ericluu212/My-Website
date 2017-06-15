@@ -216,12 +216,34 @@ a {
 }
 
 /* line 199, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
-.floatImg {
+.floatSmashImg {
   float: right;
   padding-left: 1em;
   padding-bottom: 1em;
   width: 10em;
   height: 13em;
 }
+
+/*
+.floatProjectImg{
+	float: right;
+	padding:{
+		left: $stdSize;
+		bottom: $stdSize;
+	} 
+	width: 10%;
+}
+*/
+/* line 218, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+video:hover {
+  cursor: pointer;
+}
+
+/* line 222, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/*media query*/
 
 /*# sourceMappingURL=../css/style.map */
