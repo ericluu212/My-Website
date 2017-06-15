@@ -4,10 +4,15 @@ $stdSize: 1em;
 @mixin divborders{
 
 	border: {
-		top: 5.5em solid $bkgd; 
-		bottom: 2em solid $bkgd; 
 		left: 3em solid $bkgd; 
 		right: 3em solid $bkgd; 
+		bottom: 2em solid $bkgd; 
+	}
+}
+
+@mixin divbordersNearTop{
+	border: {
+		top: 5.5em solid $bkgd; 
 	}
 }
 
@@ -153,6 +158,10 @@ a, u{
 	width: 40%;
 }
 
+.nearTop{
+	@include divbordersNearTop;
+}
+
 .header{
 	font-weight: bold; 
 	font-size: 1.8em;
@@ -171,4 +180,12 @@ p{
 	margin-right: 0.8em;
 	height: $stdSize;
 	width: $stdSize; 
+}
+
+a{
+	display: inline-block
+}
+
+#resume{
+	max-width: 100%;
 }

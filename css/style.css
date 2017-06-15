@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 19, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 24, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,59 +25,59 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 40, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 45, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 44, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 49, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 body {
   line-height: 1;
 }
 
-/* line 47, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 52, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 50, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 55, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 53, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 58, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 58, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 63, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 63, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 68, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 img, iframe, video, object {
   max-width: 100%;
 }
 
-/* line 67, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 72, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 strong, b {
   font-weight: bold;
 }
 
 /*micro clear fix */
-/* line 72, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 77, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .grouping:before,
 .grouping:after {
   content: " ";
   display: table;
 }
 
-/* line 78, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 83, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .grouping:after {
   clear: both;
 }
@@ -85,17 +85,17 @@ strong, b {
 /*
 CSS code for after the reset
 */
-/* line 86, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 91, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 body {
   background-color: #DAE3E7;
 }
 
-/* line 90, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 95, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 a, u {
   text-decoration: none !important;
 }
 
-/* line 94, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 99, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 #logo {
   width: 14em;
   height: 3.125em;
@@ -104,7 +104,7 @@ a, u {
   margin-left: 2em;
 }
 
-/* line 101, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 106, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .navbar {
   background-color: white;
   position: fixed;
@@ -113,17 +113,17 @@ a, u {
   top: 0;
 }
 
-/* line 108, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 113, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .primary-nav {
   float: right;
 }
 
-/* line 111, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 116, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .primary-nav > li {
   float: left;
 }
 
-/* line 113, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 118, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .primary-nav > li a {
   float: left;
   padding: 1.5625em 0;
@@ -137,24 +137,23 @@ a, u {
   transition: 0.15s background-color linear;
 }
 
-/* line 127, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 132, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .primary-nav > li a:focus, .primary-nav > li a:hover {
   cursor: pointer;
   background-color: #eb2428;
   color: #fff;
 }
 
-/* line 135, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 140, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .box {
-  border-top: 5.5em solid #DAE3E7;
-  border-bottom: 2em solid #DAE3E7;
   border-left: 3em solid #DAE3E7;
   border-right: 3em solid #DAE3E7;
+  border-bottom: 2em solid #DAE3E7;
   background-color: white;
   float: left;
 }
 
-/* line 140, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 145, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .box > img {
   padding: 2em;
   width: 75%;
@@ -162,24 +161,29 @@ a, u {
   margin: 0 auto;
 }
 
-/* line 148, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 153, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .left {
   width: 60%;
 }
 
-/* line 152, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 157, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .right {
   width: 40%;
 }
 
-/* line 156, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 161, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+.nearTop {
+  border-top: 5.5em solid #DAE3E7;
+}
+
+/* line 165, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .header {
   font-weight: bold;
   font-size: 1.8em;
   padding-left: .5em;
 }
 
-/* line 163, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 172, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 p {
   padding: 1em;
   font-size: 1em;
@@ -187,11 +191,21 @@ p {
   line-height: 1.5em;
 }
 
-/* line 170, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+/* line 179, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
 .icon {
   margin-right: 0.8em;
   height: 1em;
   width: 1em;
+}
+
+/* line 185, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+a {
+  display: inline-block;
+}
+
+/* line 189, C:/Users/Eric/Desktop/My-Website/scss/style.scss */
+#resume {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=../css/style.map */
