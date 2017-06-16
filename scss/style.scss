@@ -190,7 +190,7 @@ p{
 }
 
 a{
-	display: inline-block
+	display: inline-block;
 }
 
 #resume{
@@ -209,7 +209,7 @@ a{
 
 iframe{
 	display: block;
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
 }
 iframe:hover{
@@ -218,6 +218,14 @@ iframe:hover{
 
 .underline{
 	text-decoration: underline;
+}
+
+.mobile-menu-icon{
+	width: 3em;
+	height: 3em;
+	z-index: 100;
+	float: right;
+	display: none;
 }
 
 /*media queries*/
@@ -252,6 +260,8 @@ iframe:hover{
 	}
 	.primary-nav {
 		width: 100%;
+		max-height: 0;
+		overflow: hidden;
 
 		& > li{
 			float: right;
@@ -269,5 +279,14 @@ iframe:hover{
 
 
 		}
+	}
+	.mobile-menu-icon{
+		display: inline;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	.primary-nav.active{
+		max-height: 100em;
 	}
 }
