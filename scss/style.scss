@@ -232,9 +232,9 @@ iframe:hover{
 
 @media screen and (max-width: 850px) {
 	//need to fix images for smash!
-	.floatingSmashImg{ 
-		padding: 2em;
-		width: 75%;
+	.floatSmashImg{ 
+		padding: 1em;
+		max-width: 40%;
 		display: block;
 		margin: 0 auto;
 	}
@@ -288,5 +288,9 @@ iframe:hover{
 	}
 	.primary-nav.active{
 		max-height: 100em;
+	}
+	.icon{
+		height: 0.8em;
+		width: 0.8em;
 	}
 }
