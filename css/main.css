@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 50, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+img, iframe, video, object {
+  max-width: 100%;
+}
+
+/* line 54, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+strong, b {
+  font-weight: bold;
+}
+
+/*micro clear fix */
+/* line 59, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+.grouping:before,
+.grouping:after {
+  content: " ";
+  display: table;
+}
+
+/* line 65, C:/Users/Eric/Desktop/My-Website/scss/base/_reset.scss */
+.grouping:after {
+  clear: both;
+}
+
+/* line 1, C:/Users/Eric/Desktop/My-Website/scss/layout/_header.scss */
+#logo {
+  width: 14em;
+  height: 3.125em;
+  float: left;
+  margin-top: 0.3em;
+  margin-left: 2em;
+}
+
+/* line 8, C:/Users/Eric/Desktop/My-Website/scss/layout/_header.scss */
+.navbar {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* line 15, C:/Users/Eric/Desktop/My-Website/scss/layout/_header.scss */
+.primary-nav {
+  float: right;
+}
+
+/* line 18, C:/Users/Eric/Desktop/My-Website/scss/layout/_header.scss */
+.primary-nav > li {
+  float: left;
+}
+
+/* line 21, C:/Users/Eric/Desktop/My-Website/scss/layout/_header.scss */
+.primary-nav > li a {
+  float: left;
+  padding: 1.5625em 0;
+  width: 12em;
+  border-left: 1px solid #ada791;
+  text-transform: uppercase;
+  text-align: center;
+  color: #766e65;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  transition: 0.15s background-color linear;
+}
+
+/* line 35, C:/Users/Eric/Desktop/My-Website/scss/layout/_header.scss */
+.primary-nav > li a:focus, .primary-nav > li a:hover {
+  cursor: pointer;
+  background-color: #eb2428;
+  color: #fff;
+}
+
+/* line 43, C:/Users/Eric/Desktop/My-Website/scss/layout/_header.scss */
+.mobile-menu-icon {
+  width: 3em;
+  height: 3em;
+  z-index: 100;
+  float: right;
+  display: none;
+}
+
+/*media queries*/
+@media screen and (max-width: 1175px) {
+  /* line 3, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  #below-image {
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  /* line 10, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .floatSmashImg {
+    padding: 1em;
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 16, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  #logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 2.25em;
+    width: 10em;
+  }
+  /* line 24, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .box {
+    float: none !important;
+    width: 100% !important;
+    border-top: 0;
+  }
+  /* line 29, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  #contact {
+    border-top: 0;
+  }
+  /* line 32, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .navbar {
+    position: fixed;
+    float: none;
+  }
+  /* line 36, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .first {
+    border-top: 10em solid #DAE3E7;
+  }
+  /* line 39, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .primary-nav {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  /* line 44, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .primary-nav > li {
+    float: right;
+    width: 100%;
+  }
+  /* line 47, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .primary-nav > li a {
+    text-align: right;
+    padding: 1em 1.5em 1.5em 0;
+    width: 100%;
+    border-bottom: 0.05em solid #ada791;
+    border-left: 0px;
+    font-size: 0.75em;
+  }
+  /* line 61, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .mobile-menu-icon {
+    display: inline;
+  }
+  /* line 63, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .mobile-menu-icon:hover {
+    cursor: pointer;
+  }
+  /* line 67, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .primary-nav.active {
+    max-height: 100em;
+  }
+  /* line 70, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  .icon {
+    height: 0.8em;
+    width: 0.8em;
+  }
+  /* line 74, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  #below-image {
+    clear: none;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  /* line 80, C:/Users/Eric/Desktop/My-Website/scss/layout/_mediaqueries.scss */
+  #below-image {
+    clear: both;
+  }
+}
+
+/* line 1, C:/Users/Eric/Desktop/My-Website/scss/components/_boxdivs.scss */
+.left {
+  width: 60%;
+  float: left;
+}
+
+/* line 6, C:/Users/Eric/Desktop/My-Website/scss/components/_boxdivs.scss */
+.right {
+  width: 40%;
+  float: right;
+}
+
+/* line 11, C:/Users/Eric/Desktop/My-Website/scss/components/_boxdivs.scss */
+.middle {
+  float: none;
+  width: 70%;
+  margin: auto;
+}
+
+/* line 17, C:/Users/Eric/Desktop/My-Website/scss/components/_boxdivs.scss */
+.nearTop {
+  border-top: 5.5em solid #DAE3E7;
+}
+
+/* line 1, C:/Users/Eric/Desktop/My-Website/scss/pages/_lifeoutsidework.scss */
+.floatSmashImg {
+  float: right;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 10em;
+  height: 13em;
+}
+
+/* line 12, C:/Users/Eric/Desktop/My-Website/scss/pages/_lifeoutsidework.scss */
+iframe {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 17, C:/Users/Eric/Desktop/My-Website/scss/pages/_lifeoutsidework.scss */
+iframe:hover {
+  cursor: pointer;
+}
+
+/*
+CSS code for after the reset
+*/
+/* line 5, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+body {
+  background-color: #DAE3E7;
+}
+
+/* line 9, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+a, u {
+  text-decoration: none !important;
+}
+
+/* line 13, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+.box {
+  border-left: 3em solid #DAE3E7;
+  border-right: 3em solid #DAE3E7;
+  border-bottom: 2em solid #DAE3E7;
+  background-color: white;
+}
+
+/* line 18, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+.box > img {
+  padding: 1em;
+  width: 55%;
+  display: block;
+  float: left;
+}
+
+/* line 27, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+.header {
+  font-weight: bold;
+  font-size: 1.8em;
+  padding-left: .5em;
+}
+
+/* line 34, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+p {
+  padding: 1em;
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+/* line 41, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+.icon {
+  margin-right: 0.8em;
+  height: 1em;
+  width: 1em;
+}
+
+/* line 47, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+a {
+  display: inline-block;
+}
+
+/* line 51, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+#resume-image {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 57, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 61, C:/Users/Eric/Desktop/My-Website/scss/themes/_mywebsite.scss */
+#header-near-image {
+  padding-top: 1rem;
+}
+
+/*# sourceMappingURL=../css/main.map */

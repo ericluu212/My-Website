@@ -1,0 +1,14 @@
+@mixin divborders{
+
+	border: {
+		left: 3em solid $bkgd; 
+		right: 3em solid $bkgd; 
+		bottom: 2em solid $bkgd; 
+	}
+}
+
+@mixin divbordersNearTop{
+	border: {
+		top: 5.5em solid $bkgd; 
+	}
+}

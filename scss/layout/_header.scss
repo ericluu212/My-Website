@@ -1,0 +1,49 @@
+#logo{
+	width: 14em;
+	height: 3.125em;
+	float: left;
+	margin-top: 0.3em;
+	margin-left: 2em;
+}
+.navbar{
+	background-color: white;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.primary-nav{
+	float: right;
+}
+.primary-nav > li {	
+	float:left;
+	//z-index: 10;
+	a {
+		float: left;
+		padding: 1.5625em 0;
+		width: 12em;
+		border-left: 1px solid #ada791;
+		text-transform: uppercase;
+		text-align: center;
+		color: #766e65;
+		font: {
+			family: Arial, Helvetica, sans-serif;
+			size: $stdSize;
+		}
+		transition: 0.15s background-color linear;
+
+		&:focus, &:hover{
+			cursor: pointer;
+			background-color: #eb2428;
+			color: #fff;	
+		}
+	}
+}
+
+.mobile-menu-icon{
+	width: 3em;
+	height: 3em;
+	z-index: 100;
+	float: right;
+	display: none;
+}

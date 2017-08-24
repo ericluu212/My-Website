@@ -1,0 +1,19 @@
+.floatSmashImg{
+	float: right;
+	padding:{
+		left: $stdSize;
+		bottom: $stdSize;
+	} 
+	width: 10em;
+	height: 13em;
+	//clear: both;
+}
+
+iframe{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+iframe:hover{
+	cursor: pointer;
+}

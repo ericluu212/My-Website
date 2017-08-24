@@ -1,0 +1,63 @@
+/*
+CSS code for after the reset
+*/
+
+body{
+	background-color: $bkgd;
+}
+
+a, u{
+	text-decoration: none !important;
+}
+
+.box{
+	@include divborders;
+	background-color: white; //white boxes
+	//float: left;
+
+	& > img{ //picture of me
+		padding: 1em;
+		width: 55%;
+		display: block;
+		//margin: 0 auto;
+		float: left;
+	}
+}
+
+.header{
+	font-weight: bold; 
+	font-size: 1.8em;
+	padding-left: .5em;
+	//text-align: center;
+}
+
+p{
+	padding: $stdSize;
+	font-size: $stdSize;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.icon{
+	margin-right: 0.8em;
+	height: $stdSize;
+	width: $stdSize; 
+}
+
+a{
+	display: inline-block;
+}
+
+#resume-image{
+	max-width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+#header-near-image{
+	padding-top: 1rem;
+}
