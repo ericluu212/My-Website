@@ -1,0 +1,54 @@
+:root {
+  --main-font-family: Nunito;
+}
+
+.box > img {
+  display: block;
+  float: left;
+  padding: 1.5em;
+  width: 50%;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  padding-left: .5em;
+}
+
+.icon {
+  height: 1em;
+  margin-right: 1em;
+  width: 1em;
+}
+
+.page-header {
+  font-size: 2em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  background-color: #DAE3E7;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: var(--main-font-family);
+}
+
+p {
+  font-family: var(--main-font-family);
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 1em;
+  text-align: left;
+}

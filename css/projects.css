@@ -1,0 +1,12 @@
+.projectImg {
+  display: block;
+  margin: 0 auto 1em;
+  max-width: 75%;
+}
+
+.projectsFlexbox {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- mobile -->
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<title>Projects</title>
+		<link rel="stylesheet" href="css/baseStyles.css">
+		<link rel="stylesheet" href="css/boxContent.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/projects.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+		<link rel="stylesheet" href="css/mediaQueries.css">
+	</head>
+	<body>
+		<!-- nagivation -->
+		<nav class="navbar" id = "navbar">
+		    <ul class="navbar-list">
+		    	<li><a href="homepage.html">Home</a></li>
+		    	<li><a href="projects.html">Projects</a></li>
+		    	<li><a href="lifeoutsidework.html">Life Outside Work</a></li>
+		    	<li><a href = "res/LuuEricResume.pdf">Resume</a></li>
+		    </ul>
+		</nav>
+		<h1 class = "header page-header underline">Projects</h1>
+		<article class = "box projectsFlexbox">
+			<!-- Oscar Health -->
+			<a href = "https://provider.hioscar.com">
+				<h2 class = "header">Oscar Health's Provider Portal Document Library (React, SCSS, Python Flask)</h2>
+			</a>
+			<p>	
+				<img class = "projectImg guardian" alt = "Picture of Oscar Document Library" src = "img/Oscar_Document_Library.png">
+				The Provider Portal is Oscar Health's provider-facing web application through which in-network medical practitioners can view member health info and submit medical records. Previously, users had to traverse through many pages on the portal to reach its file-upload channels, which providers were misusing by uploading documents that don't satisfy the channels' use case criteria.
+				<br>
+				<br>
+				As an intern, I implemented a file upload page on the portal, accessible via the portal's home page, to allow seamless document sharing between providers and Oscar. The page will serve as the portal's main file-upload channel, thus streamlining workflows for Oscar's operational teams responsible for processing uploaded documents and ensuring that receive accurate documents. 
+			</p>
+			<!-- Guardian Life -->
+			<a href = "https://drive.google.com/open?id=0B3nltMDeLOMNLWFIYnVhMHJiclU">
+				<h2 class = "header">Guardian Life Insurance's Apigee Dev Portal (HTML, CSS, Javascript, PHP)</h2>
+			</a>
+			<p>	
+				<img class = "projectImg guardian" alt = "Picture of Guardian Life Apigee Portal" src = "img/Homepage_Desktop.png">
+				I developed the front end of a responsive Drupal 7 website that exposes Guardian Life Insurance’s APIs for internal use by Guardian’s IT department. Throughout various agile sprint cycles, I collaborated with senior developers and a UX designer through concept and development of deliverables via Bitbucket, weekly Skype meetings, and code review.
+			</p>
+			<!-- Wheres my money -->
+			<a href = "http://web.mit.edu/ericluu/Public/6813/">
+				<h2 class = "header">Where's My Money (HTML, CSS, Javascript)</h2>
+			</a>
+			<p>	
+				<img class = "projectImg" alt = "Picture of Where's My Money Project" src = "img/6813.png">
+				This web application was my final group project for 6.813 and was designed to help parents with college students manage their family expenses. Since many parents are computer-illiterate, we focused on simplicy in design to facilitate navigation through the website.
+				<br>
+				<br>
+				Note that the class focused solely on front-end design, so the website lacks a formal back-end. Consequently, it displays fixed data upon loadup and discards changes made by users prior to a browser refresh.
+			</p>
+			<!-- ABC Music Player -->
+			<a href = "https://github.com/ericluu212/ABC-Music-Player">
+				<h2 class = "header">ABC-Music-Player (Java)</h2>
+			</a>
+			<p>	
+				<img class = "projectImg" alt = "Picture of ABC Music Player" src = "img/abc.PNG">
+				ABC files are text files that encode music via ASCII characters. As such, they can be easily shared and edited on computers. However, because they are text files, an external program is needed to play the music they encode. This project, written in Java for a class on software construction, parses ABC files and represents various musical elements like notes, rests, and chords as recursive data types, which are then fed into a MIDI player for users to listen to the encoded music. 
+				<br> 
+			</p>
+		</article>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+.lifeFlexbox {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.lifeFlexbox > p {
+  flex: 0.95 0 50%;
+}
+
+iframe {
+  flex: 0.8 0 50%;
+  height: 350px;
+  margin: 0 auto;
+}
+
+iframe:hover {
+  cursor: pointer;
+}

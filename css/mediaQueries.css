@@ -1,0 +1,44 @@
+@media screen and (max-width: 1175px) {
+  #below-image {
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #below-image {
+    clear: none;
+  }
+
+  .box {
+    border-top: 0;
+    width: 100%;
+  }
+
+  .box > img {
+    padding-top: 1.5em;
+  }
+
+  .icon {
+    height: 0.8em;
+    width: 0.8em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .box > img {
+    float: none;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .box > img {
+    display: none;
+  }
+
+  .navbar-list > li a {
+    font-size: 0.75em;
+  }
+}
